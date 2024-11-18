@@ -1,0 +1,18 @@
+
+.slider-paragraph{
+    background-color: blue;
+    padding: 20px;
+    color:white;
+}
+span{
+    margin-top:50px;
+    background-color: black;
+    color:white;
+}
+.bg-img {
+    background:url(https://imageio.forbes.com/specials-images/imageserve/65be17cb80f5c798a03e7762/UEFA-Champions-League-2023-24-Group-Stage-Teams-Jerseys-Shoot/960x0.jpg?format=jpg&width=960)
+}
+.border{
+    border-width:2px;
+    border-style:solid;
+}
