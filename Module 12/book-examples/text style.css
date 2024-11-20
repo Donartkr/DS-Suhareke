@@ -1,0 +1,8 @@
+.text-style{
+    color:brown;
+    letter-spacing:10px;
+    word-spacing:15px;
+    text-decoration:underline;
+    text-align:center;
+    font-family: "arial",serif;
+}
