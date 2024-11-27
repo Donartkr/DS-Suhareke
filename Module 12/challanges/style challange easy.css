@@ -1,0 +1,22 @@
+.text-style{
+    color:brown;
+    letter-spacing:10px;
+    word-spacing:15px;
+    text-decoration:underline;
+    text-align:center;
+    font-family: "body-text";
+}
+@font-face{
+    font-family: "body-text";
+    src:url(./fonts/Jaro-Regular.ttf);
+}
+.font-class{
+    font-family: "body-text";
+    font-size:20px;
+    font-weight:400;
+}
+a{color:red}
+a:link{color:blue}
+a:visited{color:chartreuse}
+a:hover{color:crimson}
+a:active{color:black}
