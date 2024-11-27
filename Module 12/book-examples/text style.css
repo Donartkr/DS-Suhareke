@@ -15,3 +15,8 @@
     font-size:16px;
     font-weight:400;
 }
+a{color:red}
+a:link{color:blue}
+a:visited{color:chartreuse}
+a:hover{color:crimson}
+a:active{color:black}
