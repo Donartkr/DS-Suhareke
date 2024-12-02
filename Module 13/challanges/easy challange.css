@@ -1,0 +1,24 @@
+.module13
+ol{
+    list-style-type:square;
+}
+li{
+    border-bottom:1px solid red;
+}
+ul{
+    list-style-image: url(Capture.PNG);
+    list-style-position: inside;
+}
+td,th{
+    border:1px solid;
+}
+table tr:nth-child(odd){
+    background-color:blue;
+    color:white;
+}
+div{
+    width: 10%;
+    height: 200px;
+    background-color: aquamarine;
+    overflow:auto ;
+}
