@@ -13,6 +13,12 @@ td,th{
     border:1px solid;
 }
 table tr:nth-child(odd){
-    background-color: blue;
+    background-color:blue;
     color:white;
+}
+div{
+    width: 10%;
+    height: 200px;
+    background-color: aquamarine;
+    overflow:auto ;
 }
