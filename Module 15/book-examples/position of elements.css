@@ -1,7 +1,37 @@
+.absolute{
+    border:1px solid#000;
+    width: 300px;
+    height:300px;
+    left:600px;
+    top:50px;
+}
 .static{
-    border:1px solid#000
-    width:300px
-    height:300px
-    position:static
-    padding:10px
+    border:1px solid#000;
+    width: 300px;
+    height:300px;
+    left:600px;
+    top:50px;
+}
+.relative{
+    position:relative;
+    width: 300px;
+    height:300px;
+    border:1px#000;
+    left:calc{50% - 20px};
+    
+
+}
+.sticky{
+    border:1px solid#000;
+    width: 300px;
+    height:300px;
+    left:600px;
+    top:50px;
+}
+.fixed{
+    border:1px solid#000;
+    width: 300px;
+    height:300px;
+    left:600px;
+    top:50px;
 }
