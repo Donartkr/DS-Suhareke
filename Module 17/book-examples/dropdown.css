@@ -1,0 +1,16 @@
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display:none;
+    padding: 5px 10px;
+    border: 1px solid red;
+    -webkit-box-shadow: 25px 54px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 25px 54px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 25px 54px 5px 0px rgba(0,0,0,0.75);
+left:0;
+top:20px;
+}
+.dropdown a:hover + .dropdown-content{
+    display: inline-block;
+}
