@@ -1,0 +1,35 @@
+body{
+    counter-reset:number;
+}
+h2::before{
+    counter-increment: number;
+    content:counter(number);
+    background-color: green;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.c1{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    border-image: url(../../Moduloe 16/book-examplesw/iphone.png) 25 25 round;
+}
+.c2{
+    width: 200px;
+    height: 200px;
+    border:1px solid green;
+    background-color:  green;
+}
+.c3{
+    background: 
+    url(../../Moduloe 16/book-examplesw/iphone.png)
+    top center / 200px 200px no-repeat fixed padding-box content-box
+    red;
+}
+.c4{
+    -moz-box-shadow:2px 2px 4px 5px #eee;
+    -webkit-box-shadow:2px 2px 4px 5px #eee;
+    box-shadow:2px 2px 4px 5px #eee;
+}
