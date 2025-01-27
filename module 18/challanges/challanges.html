@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+            @keyframes pulse{
+        0%{
+            width: 60px;
+            height: 60px;
+        }
+        50%{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        100%{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+        }
+    }
+    div.Animation{
+        width: 100px;
+        height: 100px;
+        animation: pulse 5s;
+        rotate: 90deg;
+        scale: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="Animation">
+        Hello!
+    </div>
+</body>
+</html>
