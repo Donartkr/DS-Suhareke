@@ -1,0 +1,14 @@
+@media(max-width:900px){
+    .side{
+        width: 100%;
+    }
+    .post{
+width: 101%;
+    }
+}
+@media(min-width:600px){
+    .responsive{
+        background-color: aqua;
+color: red;
+    }
+}
