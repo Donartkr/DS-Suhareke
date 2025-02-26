@@ -2,15 +2,58 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 5px;
     padding: 5px;
-    background-color:  #3498db;
+    background-image: url(circle-scatter-haikei.svg);
+    background-size: cover;
 }
 img{
     margin: 30px;
     padding: 30px;
+    width: 50%;
+    height: 50%;
 }
 header {
     background-color:  #333;
     color: red;
     padding: 10px 0;
     text-align: center;
+}
+nav{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    background-color:#333 ;
+    padding: 0;
+    text-decoration: none;
+    gap: 20px;
+    color: red;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    position: relative;
+    cursor: pointer;
+    color: rgb(250, 2, 2);
+    font-size: 28px;
+    padding: 0.5em 1em;
+    transition: color 0.25s;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    font-family: Rubik, sans-serif;
+}
+a:hover{
+    background-color: rgb(255, 51, 51);
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    background-color: #333;
+    color: red;
+    padding: 6px;
+    border-radius: 10px;
 }
