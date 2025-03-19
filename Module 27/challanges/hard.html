@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <script> function Phone(apps,storage,battery){
+            this.apps=apps;
+            this.storage=storage;
+            this.battery=battery;
+            
+            this.printSummary = function () {
+                console.log(`${this.apps} by ${this.storage} has ${this.battery.}`);
+            };
+            }
+            const myPhone = new Phone(`instagram`,64,5000);
+            myPhone.printSummary();
+                
+                
+                </script>
+</head>
+<body>
+    
+</body>
+</html>
